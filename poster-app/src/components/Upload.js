@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
 
 export default class Upload extends Component {
-    
-    render() {
+    constructor(props) {
+        super(props)
+        this.state = {
         
+       }
+    }   
+    
+    render(){
+        return
+        
+
      
       }
 }
