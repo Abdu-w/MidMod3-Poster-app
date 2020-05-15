@@ -37,6 +37,6 @@ Clients that are not near the geographic location of the company retail store.
 Clients that want to have custom poster art.
 
 ### Wireframe:
-![About Page](Wireframe/1_HomePage.png)
-![About Page](Wireframe/2_UploadPage.png)
-![About Page](Wireframe/3_AboutPage.png)
+![Home Page](../Wireframe/1_HomePage.png)
+![Upload Page](../Wireframe/2_UploadPage.png)
+![About Page](../Wireframe/3_AboutPage.png)
