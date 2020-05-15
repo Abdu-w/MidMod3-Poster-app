@@ -37,6 +37,6 @@ Clients that are not near the geographic location of the company retail store.
 Clients that want to have custom poster art.
 
 ### Wireframe:
-![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1%20-%20Home%20Page.png “Poster App”)
-![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/2%20-%20Upload%20Page.png “Poster App”)
-![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3%20-%20About%20Page.png “Poster App”)
+![Home Page](./Wireframe/1 - Home Page.png “Poster App”)
+![Upload Page](./Wireframe/2 - Upload Page.png “Poster App”)
+![About Page](./Wireframe/3 - About Page.png “Poster App”)
