@@ -9,13 +9,13 @@ Rafael - Wireframe, Task coordination, Navigation bar, About page component, REA
 Rosy - Github branch coordination, API functionality, Home component, README.md
 
 ### Technologies Used:
-Axios 
-React.js
-React-Router 
+#### Axios 
+#### React.js
+#### React-Router 
 
 ### Install:
-npm install axios
-npm install react-router-dom
+#### npm install axios
+#### npm install react-router-dom
 
 ### API used:
 https://www.pexels.com/api/?locale=en-US
@@ -37,6 +37,6 @@ Clients that are not near the geographic location of the company retail store.
 Clients that want to have custom poster art.
 
 ### Wireframe:
-![Home Page](/Wireframe/1 - Home Page.png “Poster App”)
-![Upload Page](/Wireframe/2 - Upload Page.png “Poster App”)
-![About Page](/Wireframe/3 - About Page.png “Poster App”)
+![About Page](Wireframe/1_HomePage.png)
+![About Page](Wireframe/2_UploadPage.png)
+![About Page](Wireframe/3_AboutPage.png)
