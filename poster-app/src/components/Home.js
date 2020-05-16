@@ -21,7 +21,7 @@ export default class Home extends Component {
         try{
             const response = await axios.get("https://api.pexels.com/v1/search?query=people",
             {headers: {
-                "Authorization" : "API_KEY"
+                "Authorization" : API_KEY
               }
             })
 
