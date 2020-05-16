@@ -53,9 +53,11 @@ export default class Home extends Component {
             <div>
                 Home Page
                 <div className="results-container"> {this.state.displayData.map((result) => <div className="poster-results"><ul key= {result.id} className="lists-display">
-                    <li><img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} </h5></li>
-                    
-                </ul></div>)} </div>
+                    <li><img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} </h5>  <h5>View Details</h5> </li>
+                   
+                </ul>
+
+                </div>)} </div>
                {/* {this.searchRequest()} */}
                {/* <img src = "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" /> */}
               
