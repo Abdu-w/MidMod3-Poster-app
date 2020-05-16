@@ -1,0 +1,42 @@
+
+.posterImg {
+    border:solid black;
+    position: relative;
+    }
+    
+    .UploadPage{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    input[type="file"]{
+      display: none;
+    }
+    label{
+      color:rgb(238, 234, 234);
+      height: 45px;
+      width: 200px;
+      background-color: rgb(109, 235, 182);
+      position: relative;
+      margin: auto ;
+      font-weight: bolder;
+      font-size: 20px;
+      padding:10px;
+      border-radius:6px ;
+    }
+    
+    .deletBtn{
+      color:rgb(238, 234, 234);
+      height: 45px;
+      width: 200px;
+      background-color: rgb(109, 235, 182);
+      position: relative;
+      margin: auto ;
+      font-size: 20px;
+      font-weight: 700;
+      padding:10px;
+      border-radius:6px ;
+    
+    }
+    
