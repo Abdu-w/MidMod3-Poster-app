@@ -1,0 +1,25 @@
+.text-container{
+    display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+    border-color:5px solid red;
+    background-color: #BCECE0;
+    margin: 20px;
+    height:500px;
+
+}
+
+.text-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    padding: 25px;
+    margin-top: 20px;
+    color:#4C5270;
+    border: 5px solid white;
+}
