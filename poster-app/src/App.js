@@ -2,13 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home'
-import Upload from './components/Upload'
-
+import Navigation from './components/Navigation'
 
 function App() {
   return (
    <div>
-    <Upload/>
+     <Navigation />
+     {/* <Home/> */}
     </div>
   );
 }
