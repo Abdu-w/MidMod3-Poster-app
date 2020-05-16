@@ -1,6 +1,6 @@
 # Poster-app
 
-### Team Members
+## Team Members
 
 Abdul - Github repo hosting, Upload page component
 
@@ -8,35 +8,37 @@ Rafael - Wireframe, Task coordination, Navigation bar, About page component, REA
 
 Rosy - Github branch coordination, API functionality, Home component, README.md
 
-### Technologies Used:
+## Technologies Used:
 #### Axios 
 #### React.js
 #### React-Router 
 
-### Install:
+## Install:
 #### npm install axios
 #### npm install react-router-dom
 
-### API used:
+## API used:
 https://www.pexels.com/api/?locale=en-US
 
-### Problem Statement:
+## Problem Statement:
 The stakeholders currently have only one physical retail store, limiting the potential to reach more clients.
 They are looking to expand the business to more clients through a digital platform.
 
-### Proposition:
+## Proposition:
 Creating an online marketplace which allows users to browse the current poster inventory of the shop owner, and allows users to upload their images and purchase their custom poster art. This can expand the owners business to a broader customer base.
 
-### Requirements:
+## Requirements:
 Gallery to display current inventory
 User image upload and preview 
 Delete user upload option
 
-### Target End Users:
+## Target End Users:
 Clients that are not near the geographic location of the company retail store.
 Clients that want to have custom poster art.
 
-### Wireframe:
+## Wireframe:
 ![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1_HomePage.png)
 ![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/2_UploadPage.png)
 ![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_AboutPage.png)
+
+## Link:
