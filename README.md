@@ -28,13 +28,13 @@ They are looking to expand the business to more clients through a digital platfo
 Creating an online marketplace which allows users to browse the current poster inventory of the shop owner, and allows users to upload their images and purchase their custom poster art. This can expand the owners business to a broader customer base.
 
 ## Requirements:
-Gallery to display current inventory
-User image upload and preview 
-Delete user upload option
+Gallery to display current inventory,
+user image upload and preview, 
+delete user upload option.
 
 ## Target End Users:
-Clients that are not near the geographic location of the company retail store.
-Clients that want to have custom poster art.
+Clients that are not near the geographic location of the company retail store as well as
+clients that want to have custom poster art.
 
 ## Wireframe:
 ![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1_HomePage.png)
