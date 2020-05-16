@@ -51,9 +51,8 @@ export default class Home extends Component {
         console.log(this.state.displayData )
         return (
             <div>
-                Home Page
                 <div className="results-container"> {this.state.displayData.map((result) => <div className="poster-results"><ul key= {result.id} className="lists-display">
-                    <li><img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} </h5>  <h5>View Details</h5> </li>
+                    <li className="results-li"><img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} </h5>  <h5>View Details</h5> </li>
                    
                 </ul>
 
