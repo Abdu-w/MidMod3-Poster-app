@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { GoFileMedia } from "react-icons/go";
 // import { Redirect } from 'react-router-dom'
+import '../styles/Upload.css'
 
 export default class HomePage extends Component{
     constructor(props) {
