@@ -43,7 +43,7 @@ h5{
     color: grey;
 }
 
-li{
+.results{
     border: 2px solid grey;
     padding: 10px;
     margin-bottom: 70px;
