@@ -11,13 +11,27 @@ export default class Home extends Component {
         this.state = {
             displayResults: '',
             displayData:[ ],
-            img: ''
+            img: '',
+            searchText:''
         }
     }
  
-    componentDidMount(){
+    // componentDidMount(){
+    //     this.searchRequest();
+    // }
+    
+     searchText = (e) =>{
+            e.preventDefault();
+            console.log(e.target.value);
+            this.setState({searchText : e.target.value})
+     }
+
+     handleSearch = (e) =>{
+        e.preventDefault();
+        console.log(this.state.searchText);
         this.searchRequest();
-    }
+ }
+
     searchRequest = async () =>{
         console.log(API_KEY)
         try{
@@ -26,14 +40,16 @@ export default class Home extends Component {
             //     "Authorization" : API_KEY
             //   }
             // })
-            const response = await axios.get("https://api.pexels.com/v1/search?query=nature",
+            console.log(this.state.searchText)
+            const searchText = this.state.searchText;
+            const response = await axios.get("https://api.pexels.com/v1/search?query=" +searchText ,
             {headers: {
                 "Authorization" : API_KEY
               }
             })
             console.log(response);
             console.log(response.data);
-            // console.log(response.data.photos);
+            console.log(response.data.total_results);
             // console.log(response.data.photos.src.portrait);
             // let url=JSON.stringify(response.data.photos[0].src.portrait);
             // let url=response.data.photos[0].src.portrait;
@@ -51,9 +67,13 @@ export default class Home extends Component {
         console.log(this.state.displayData )
         return (
             <div>
-                Home Page
+                <form className="search-container">
+                    <input type="text" value={this.state.searchText} id="search-text" onChange={this.searchText}/>
+                 
+                    <button  id="search-button" onClick={this.handleSearch}>Search</button>
+                </form>
                 <div className="results-container"> {this.state.displayData.map((result) => <div className="poster-results"><ul key= {result.id} className="lists-display">
-                    <li><img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} </h5>  <h5>View Details</h5> </li>
+                    <li className="results"> <img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} </h5>  <h5>View Details</h5> </li>
                    
                 </ul>
 
