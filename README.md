@@ -16,6 +16,7 @@ Rosy - Github branch coordination, API functionality, Home component, README.md
 ## Install:
 #### npm install axios
 #### npm install react-router-dom
+#### npm install react-icons --save
 
 ## API used:
 https://www.pexels.com/api/?locale=en-US
