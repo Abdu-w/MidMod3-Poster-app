@@ -32,7 +32,7 @@ function Navigation() {
 				<Route exact path="/search" component={Search}></Route>
 				<Route exact path="/upload" component={Upload}></Route>
 				<Route exact path="/about" component={About}></Route>
-				<Route exact path="/viewDetail" component={ViewDetail}></Route>
+				<Route exact path="/results" component={ViewDetail}></Route>
 			</Switch>
 		</Router>
 	);
