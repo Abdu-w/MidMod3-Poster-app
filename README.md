@@ -43,3 +43,6 @@ clients that want to have custom poster art.
 ![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_AboutPage.png)
 
 ## Link:
+
+## Resources:
+1. https://react-bootstrap.github.io/components/forms/
