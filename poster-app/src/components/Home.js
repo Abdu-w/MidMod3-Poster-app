@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import '../styles/Home.css'
+import '../styles/Home.css';
+import {Form, FormControl, Button} from "react-bootstrap";
 
 const API_KEY=process.env.REACT_APP_API_KEY;
 console.log(process.env.REACT_APP_API_KEY)
@@ -67,13 +68,14 @@ export default class Home extends Component {
         console.log(this.state.displayData )
         return (
             <div>
-                <form className="search-container">
-                    <input type="text" value={this.state.searchText} id="search-text" onChange={this.searchText}/>
-                 
-                    <button  id="search-button" onClick={this.handleSearch}>Search</button>
-                </form>
+                <Form className="search-container">
+                    <FormControl type="text" value={this.state.searchText} id="search-text" onChange={this.searchText} placeholder="search text" />
+                    <Button  id="search-button" onClick={this.handleSearch}>Search</Button>
+                    {/* <FormText id="form-text">Search for your favorite category</FormText>
+                    <Form.T */}
+                </Form>
                 <div className="results-container"> {this.state.displayData.map((result) => <div className="poster-results"><ul key= {result.id} className="lists-display">
-                    <li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} <h5>View Details</h5> </h5>  </li>
+                    <li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "500px" width="300px" /> <h5>Poster ID: {result.id} </h5> <Button id="view-details" variant="link">View Details</Button>  </li>
                    
                 </ul>
 
