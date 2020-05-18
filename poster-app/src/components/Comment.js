@@ -44,7 +44,9 @@ class Comment extends React.Component {
       <div>
          <div className='comment-container'>
           <div className='comment-title'>
+            <label>
             Leave a question or comment!
+            </label>
             <br />
             <input
                 type='text'
@@ -56,7 +58,7 @@ class Comment extends React.Component {
             onClick={() => this.addText()}
             disabled={!this.state.newText.length}
           >
-          <button className= 'submit-btn'> Submit </button>
+            <button className='submit-btn'> Submit </button>
           </button>
           <div className = 'comment-child'>
             <ul>

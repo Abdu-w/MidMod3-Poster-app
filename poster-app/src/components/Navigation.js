@@ -4,7 +4,6 @@ import Home from './Home';
 import Upload from './Upload';
 import About from './About';
 import Comment from './Comment';
-// import ViewDetail from './ViewDetail';
 import Search from './Search';
 import '../styles/Navigation.css'
 
@@ -15,7 +14,7 @@ function Navigation() {
 			<div className= "logo">Poster Maker</div>
 				<ul className="navbar">
 					<li>
-						<Link to = "/home">Home</Link>
+						<Link to = "/">Home</Link>
 					</li>
 					<li>
 						<Link to = "/search">Search</Link>
@@ -32,12 +31,11 @@ function Navigation() {
 				</ul>
 			</nav>
 			<Switch>
-				<Route exact path="/home" component={Home}></Route>
+				<Route exact path="/" component={Home}></Route>
 				<Route exact path="/search" component={Search}></Route>
 				<Route exact path="/upload" component={Upload}></Route>
 				<Route exact path="/about" component={About}></Route>
 				<Route exact path="/comment" component={Comment}></Route>
-				{/* <Route exact path="/viewDetail" component={ViewDetail}></Route> */}
 			</Switch>
 		</Router>
 	);
