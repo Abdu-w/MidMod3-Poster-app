@@ -1,16 +1,26 @@
-.btn-container {
-  display: block;
-  height: 50px;
-}
+.heading{
+  font-family: 'Pacifico',cursive;
+  font-size: 40px;
 
+}
+.btn-container {
+display: block;
+height: 50px;
+}
 .img-container {
   display: block;
   position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin: 3px auto;
 }
 
 .poster-img {
   border:solid black;
   position: relative;
+  /* box-shadow: 0px 2px 0px 1px rgba(0,0,0,0.2); */
 }
 
 .image-upload{
@@ -23,28 +33,34 @@ input[type="file"]{
   display: none;
 }
 label{
-  color: papayawhip;
+  color: rgb(199, 179, 179);
   height: 45px;
   width: 200px;
-  background-color: palevioletred;
+  background-color: #36EEE0;
   position: relative;
   margin: auto ;
   font-weight: bolder;
   font-size: 20px;
+  font-family: 'Balsamiq Sans';
   padding:10px;
   border-radius:6px ;
 }
 
 .delete-btn{
   background-color: #eee;
-  position: relative;
   margin: auto ;
   font-size: 20px;
   font-weight: 700;
   padding:10px;
-  border-radius:6px ;
-  left: 56%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 2px 0px 1px rgba(0,0,0,0.2);
   position: absolute;
   top: 0;
+  right: -50px;
   width: 50px;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
