@@ -3,7 +3,7 @@ import { Route, Switch, Link, BrowserRouter as Router } from 'react-router-dom';
 import Home from './Home';
 import Upload from './Upload';
 import About from './About';
-import ViewDetail from './ViewDetail';
+// import ViewDetail from './ViewDetail';
 import Search from './Search';
 import '../styles/Navigation.css'
 
@@ -32,7 +32,7 @@ function Navigation() {
 				<Route exact path="/search" component={Search}></Route>
 				<Route exact path="/upload" component={Upload}></Route>
 				<Route exact path="/about" component={About}></Route>
-				<Route exact path="/viewDetail" component={ViewDetail}></Route>
+				{/* <Route exact path="/viewDetail" component={ViewDetail}></Route> */}
 			</Switch>
 		</Router>
 	);
