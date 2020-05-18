@@ -1,5 +1,6 @@
 .heading{
   font-size: 40px;
+  font-family: 'Balsamiq Sans';
 
 }
 .btn-container {
@@ -62,4 +63,3 @@ label{
 
 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
