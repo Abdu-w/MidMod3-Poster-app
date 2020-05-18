@@ -18,6 +18,22 @@ text-align: center;
     color:#4C5270;
 }
 
+label {
+    color: White;
+    width: 300px;
+    }
+
+input{
+    border-radius: 10px;
+}
+
+.submit-btn{
+    border-radius: 10px;
+    font-family: 'Balsamiq Sans';
+    color:#4C5270;
+    border-style: none;
+}
+
 .comment-child{
     display:flex;
     justify-content: flex-start;
