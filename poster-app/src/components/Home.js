@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../styles/Home.css';
-import Carousel from 'react-bootstrap/Carousel' 
-
+import ErrorMessage from './ErrorMessage';
+import Carousel from 'react-bootstrap/Carousel'
 
 const API_KEY=process.env.REACT_APP_API_KEY;
 console.log(process.env.REACT_APP_API_KEY)
