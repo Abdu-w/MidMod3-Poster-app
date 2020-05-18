@@ -1,0 +1,9 @@
+.error-message{
+    text-align: center;
+    font-style: normal;
+    font-size: medium;
+    font-family: cursive;
+    color:rgb(52, 47, 128)
+   }
+   
+   /* styling for error message displayed when there is no search result */
