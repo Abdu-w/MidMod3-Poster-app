@@ -2,7 +2,7 @@ import React, { Component, createRef } from 'react';
 import { GoFileMedia } from "react-icons/go";
 import '../styles/Upload.css';
 
-export default class HomePage extends Component{
+export default class Upload extends Component{
   constructor(props) {
     super(props)
     this.state = {
@@ -39,17 +39,20 @@ export default class HomePage extends Component{
 
       // source for web storage api error handleing :
       //https://flaviocopes.com/web-storage-api/#storage-size-limits
-      try {
-        localStorage.setItem(imgKey, reader.result)  // key-1: long-string...4lht57hgjk
-      } catch (domException) {
-        if (
-          ['QuotaExceededError', 'NS_ERROR_DOM_QUOTA_REACHED'].includes(
-            domException.name
-          )
-        ) {
-          localStorage.clear()
-        }
-      }
+      localStorage.setItem(imgKey, reader.result)  // key-1: long-string...4lht57hgjk
+
+      
+      //   try {
+        // localStorage.setItem(imgKey, reader.result) 
+      // } catch (domException) {
+      //   if (
+      //     ['QuotaExceededError', 'NS_ERROR_DOM_QUOTA_REACHED'].includes(
+      //       domException.name
+      //     )
+      //   ) {
+      //     localStorage.clear()
+      //   }
+      // }
       
       //check master data 
       let masterData = localStorage.getItem('master')
@@ -79,7 +82,8 @@ export default class HomePage extends Component{
     masterData.shift()
     // filter the target key and join masterData back to string 
     let newMaster = masterData.filter(num => num !== imgKey[imgKey.length - 1])
-    localStorage.setItem('master', `,${newMaster.join(',')}`)
+    const check = newMaster.length ? `,${newMaster.join(',')}` : ''
+    localStorage.setItem('master', check)
     // removes targeted key and return  array  
     this.setState({
       upload: upload.filter(elm => elm !== imgKey) // keep or don't keep
@@ -90,7 +94,7 @@ export default class HomePage extends Component{
     console.log(this.state)
     return(
       <div className='image-upload'> 
-        <h1>Add a Poster</h1>
+        <h1 className='heading'>Add a Poster</h1>
         <div className='btn-container'>
           <input 
               id='file'
@@ -129,7 +133,7 @@ export default class HomePage extends Component{
 function LoadImage(props){  
   return (
    <div className='img-container'>
-     <img className='poster-img' src={props.imgSrc} style={{ height: 150, width: 100 }} />
+     <img className='poster-img' src={props.imgSrc} style={{ height: 500, width: 300 }} />
      <br />
      <button className="delete-btn" onClick={props.deletePhoto}>x</button>
    </div>
