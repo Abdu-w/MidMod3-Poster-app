@@ -14,3 +14,5 @@ function App() {
 }
 
 export default App;
+
+//https://stackoverflow.com/questions/45598854/passing-values-through-react-router-v4-link

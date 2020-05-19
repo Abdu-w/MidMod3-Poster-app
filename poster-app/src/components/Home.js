@@ -35,7 +35,7 @@ export default class Home extends Component {
             // })
             console.log(this.state.searchText)
             const searchText = this.state.searchText;
-            const response = await axios.get("https://api.pexels.com/v1/search?query=landscape" ,
+            const response = await axios.get("https://api.pexels.com/v1/search?query=trees" ,
             {headers: {
                 "Authorization" : API_KEY
               }
