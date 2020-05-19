@@ -55,4 +55,5 @@ Add authentication functionality.
 
 ## Resources:
 1. https://react-bootstrap.github.io/components/forms/
-2. https://www.youtube.com/watch?v=e_ZibOe77yo
+2. https://www.qcode.in/learn-react-by-creating-a-comment-app/
+3. https://www.youtube.com/watch?v=e_ZibOe77yo
