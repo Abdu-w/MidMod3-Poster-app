@@ -78,3 +78,5 @@ class Comment extends React.Component {
   }
 }
 export default  Comment;
+
+//Resources: https://www.qcode.in/learn-react-by-creating-a-comment-app/ 
