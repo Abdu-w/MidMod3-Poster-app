@@ -45,8 +45,10 @@ Add authentication functionality.
 
 ## Wireframe:
 ![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1_HomePage.png)
-![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/2_UploadPage.png)
-![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_AboutPage.png)
+![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/Search.png)
+![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_UploadPage.png)
+![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/4_AboutPage.png)
+![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/5_CommentPage.png)
 
 ## Link:
 
