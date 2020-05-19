@@ -6,7 +6,11 @@ Abdul - Github repo hosting, Upload page component, App deployment
 
 Rafael - Wireframe, Task coordination, Navigation bar, About/Comment component, README.md
 
+<<<<<<< HEAD
+Rosy - Github branch coordination, API functionality, Home component, Search Component, README.md
+=======
 Rosy - Github branch coordination, API functionality, Home/Search component, README.md
+>>>>>>> origin/master
 
 ## Technologies Used:
 #### Axios 
@@ -17,7 +21,11 @@ Rosy - Github branch coordination, API functionality, Home/Search component, REA
 #### npm install axios
 #### npm install react-router-dom
 #### npm install react-icons --save
+<<<<<<< HEAD
+#### npm install react-bootstrap
+=======
 #### npm install react-bootstrap bootstrap
+>>>>>>> origin/master
 
 ## API used:
 https://www.pexels.com/api/?locale=en-US
