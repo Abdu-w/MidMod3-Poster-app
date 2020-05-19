@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 const API_KEY=process.env.REACT_APP_API_KEY;
 
-
 export default class Home extends Component {
             
     constructor(props){
@@ -24,13 +23,11 @@ export default class Home extends Component {
     
      searchText = (e) =>{
             e.preventDefault();
-            console.log(e.target.value);
             this.setState({searchText : e.target.value})
      }
 
      handleSearch = (e) =>{
         e.preventDefault();
-        console.log(this.state.searchText);
         this.searchRequest();
     }
 
