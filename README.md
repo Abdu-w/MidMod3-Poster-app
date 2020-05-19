@@ -4,7 +4,7 @@
 
 Abdul - Github repo hosting, Upload page component, App deployment
 
-Rafael - Wireframe, Task coordination, Navigation bar, About component, README.md
+Rafael - Wireframe, Task coordination, Navigation bar, About/Comment component, README.md
 
 Rosy - Github branch coordination, API functionality, Home/Search component, README.md
 
@@ -55,3 +55,4 @@ Add authentication functionality.
 
 ## Resources:
 1. https://react-bootstrap.github.io/components/forms/
+2. https://www.youtube.com/watch?v=e_ZibOe77yo
