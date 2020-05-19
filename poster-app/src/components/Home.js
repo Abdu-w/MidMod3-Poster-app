@@ -28,6 +28,7 @@ export default class Home extends Component {
         try{
             const searchText = this.state.searchText;
             const response = await axios.get("https://api.pexels.com/v1/search?query=nature" ,
+
             {headers: {
                 "Authorization" : API_KEY
               }
