@@ -7,11 +7,8 @@ import { Link } from 'react-router-dom';
 
 const API_KEY=process.env.REACT_APP_API_KEY;
 
-let abortController = new AbortController();
 export default class Home extends Component {
             
-    //new code
-    _isMounted = false;
     constructor(props){
         super(props);
         this.state = {
@@ -26,13 +23,11 @@ export default class Home extends Component {
     
      searchText = (e) =>{
             e.preventDefault();
-            console.log(e.target.value);
             this.setState({searchText : e.target.value})
      }
 
      handleSearch = (e) =>{
         e.preventDefault();
-        console.log(this.state.searchText);
         this.searchRequest();
     }
 
@@ -74,16 +69,10 @@ export default class Home extends Component {
                         return (
 
                             <div className="poster-results"><ul key= {result.id} className="lists-display">
-                            <li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "400px" width="260px" /> <h5>Poster ID: {result.id} </h5> <Link to ={{pathname:'/results',    state: {
-                    pId : result.id,
-                    url: result.src.portrait
-                }}}
-                            className="view-details" id= {result.id}  >View Details</Link>  </li>
+                            <li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "400px" width="260px" /> <h5>Poster ID: {result.id} </h5> 
+                             </li>
                             </ul> </div>)
-                        {/* // <div className="poster-results"><ul key= {result.id} className="lists-display">
-                        // <li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "400px" width="260px" /> <h5>Poster ID: {result.id} </h5> <Button className="view-details" id= {result.id} variant="link" onClick={this.viewDetails(result.id, result.src.portrait)} >View Details</Button>  </li> */}
-                        {/* x<li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "400px" width="260px" /> <h5>Poster ID: {result.id} </h5> <Button className="view-details" id= {result.id} variant="link" onClick={this.viewDetails(result.id, result.src.portrait)} value={result.id , result.src.portrait}>View Details</Button>  </li> */}
-                        {/* </ul> </div>) */}
+                       
                     } )
                 }
                 </div>
