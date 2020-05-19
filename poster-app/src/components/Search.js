@@ -6,7 +6,6 @@ import {Form, FormControl, Button} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 
 const API_KEY=process.env.REACT_APP_API_KEY;
-console.log(process.env.REACT_APP_API_KEY)
 
 let abortController = new AbortController();
 export default class Home extends Component {
@@ -24,11 +23,14 @@ export default class Home extends Component {
             data : ''
         }
     }
+<<<<<<< HEAD
     
     componentDidMount(){
         this._isMounted =true;
        
     }
+=======
+>>>>>>> origin/master
     
      searchText = (e) =>{
             e.preventDefault();
@@ -40,33 +42,20 @@ export default class Home extends Component {
         e.preventDefault();
         console.log(this.state.searchText);
         this.searchRequest();
- }
+    }
 
     searchRequest = async () =>{
         console.log(API_KEY)
         try{
-            // const response = await axios.get("https://api.pexels.com/v1/search?query=people",
-            // {headers: {
-            //     "Authorization" : API_KEY
-            //   }
-            // })
-            console.log(this.state.searchText)
             const searchText = this.state.searchText;
             const response = await axios.get("https://api.pexels.com/v1/search?query=" +searchText ,
             {headers: {
                 "Authorization" : API_KEY
               }
             })
-            console.log(response);
-            console.log(response.data);
-            console.log(response.data.total_results);
-            // console.log(response.data.photos.src.portrait);
-            // let url=JSON.stringify(response.data.photos[0].src.portrait);
-            // let url=response.data.photos[0].src.portrait;
-            //console.log(url)
-        // this.setState({img : url});
         let resultLength = response.data.total_results;
         let url=response.data.photos;
+<<<<<<< HEAD
         if(resultLength >0 && this._isMounted){
             this.setState({displayData : url});
             this.setState({resultLength : false})
@@ -102,16 +91,27 @@ export default class Home extends Component {
             // this.abortController.abort();
           }
 
+=======
+            if(resultLength >0){
+                this.setState({displayData : url});
+                this.setState({resultLength : false})
+            }
+            else{
+                this.setState({resultLength : true})        
+            }
+        }
+            catch(e){
+                console.log(e);
+            }
+        }
+>>>>>>> origin/master
     render() {
-        console.log(this.state.displayData );
         let response = this.state.displayData;
         return (
             <React.Fragment>
                 <Form className="search-container">
                     <FormControl type="text" value={this.state.searchText} id="search-text" onChange={this.searchText} placeholder="search text" />
                     <Button  id="search-button" onClick={this.handleSearch}>Search</Button>
-                    {/* <FormText id="form-text">Search for your favorite category</FormText>
-                    <Form.T */}
                 </Form>
                 <div className="results-container"> 
                 {
@@ -133,10 +133,7 @@ export default class Home extends Component {
                     } )
                 }
                 </div>
-               {/* {this.searchRequest()} */}
-               {/* <img src = "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" /> */}
-              
-               </React.Fragment>
+             </React.Fragment>
         )
     }
 }

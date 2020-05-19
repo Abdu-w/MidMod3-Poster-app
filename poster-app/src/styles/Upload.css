@@ -1,7 +1,7 @@
 .heading{
-  font-family: 'Pacifico',cursive;
-  font-size: 40px;
-
+  font-family: 'Balsamiq Sans';
+  font-size: 30px;
+  color:#4C5270;
 }
 .btn-container {
 display: block;
@@ -63,4 +63,3 @@ label{
 
 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

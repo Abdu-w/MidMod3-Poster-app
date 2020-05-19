@@ -2,11 +2,15 @@
 
 ## Team Members
 
-Abdul - Github repo hosting, Upload page component
+Abdul - Github repo hosting, Upload page component, App deployment
 
-Rafael - Wireframe, Task coordination, Navigation bar, About page component, README.md
+Rafael - Wireframe, Task coordination, Navigation bar, About/Comment component, README.md
 
+<<<<<<< HEAD
 Rosy - Github branch coordination, API functionality, Home component, Search Component, README.md
+=======
+Rosy - Github branch coordination, API functionality, Home/Search component, README.md
+>>>>>>> origin/master
 
 ## Technologies Used:
 #### Axios 
@@ -17,7 +21,11 @@ Rosy - Github branch coordination, API functionality, Home component, Search Com
 #### npm install axios
 #### npm install react-router-dom
 #### npm install react-icons --save
+<<<<<<< HEAD
 #### npm install react-bootstrap
+=======
+#### npm install react-bootstrap bootstrap
+>>>>>>> origin/master
 
 ## API used:
 https://www.pexels.com/api/?locale=en-US
@@ -38,12 +46,21 @@ delete user upload option.
 Clients that are not near the geographic location of the company retail store as well as
 clients that want to have custom poster art.
 
+## Next Steps:
+Create add to cart, check out functionality.
+Add purchase functionality.
+Add authentication functionality.
+
 ## Wireframe:
-![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1_HomePage.png)
-![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/2_UploadPage.png)
-![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_AboutPage.png)
+![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/0_HomePage.png)
+![Search Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1_SearchPage.png)
+![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_UploadPage.png)
+![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/4_AboutPage.png)
+![Comment Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/5_CommentPage.png)
 
 ## Link:
 
+
 ## Resources:
 1. https://react-bootstrap.github.io/components/forms/
+2. https://www.youtube.com/watch?v=e_ZibOe77yo
