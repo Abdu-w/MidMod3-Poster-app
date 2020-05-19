@@ -2,27 +2,8 @@ ul{
     list-style-type: none;
     margin:0;
     padding: 0;
-    /* background-color: rgba(167, 216, 152, 0.664); */
-    /* background-image: linear-gradient(#082400,#0b9463, #00d4ff); */
-    /* border: 3px dotted rgb(141, 73, 73); */
+ 
 }
-
-
-/* .lists-display{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 25px;
-    font-family: cursive;
-    font-weight: bold;
-
-} */
-/* 
-.poster-results{
-    display: flex;
-    flex-direction: row;
-    
-} */
 
 .results-container{
     display: flex;
@@ -33,8 +14,7 @@ ul{
     font-family: cursive;
     font-weight: bold;
     padding: 100px;
-    
-    /* margin-top: 10px; */
+
 }
 
 h5{
@@ -56,9 +36,6 @@ h5{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    /* font-size: 25px;
-    font-family: cursive;
-    font-weight: bold; */
     padding-top: 50px;
 }
 
