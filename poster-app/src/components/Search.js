@@ -69,12 +69,10 @@ export default class Home extends Component {
                         return (
 
                             <div className="poster-results"><ul key= {result.id} className="lists-display">
-                            <li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "400px" width="260px" /> <h5>Poster ID: {result.id} </h5> <Link to ={{pathname:'/results',    state: {
-                    pId : result.id,
-                    url: result.src.portrait
-                }}}
-                            className="view-details" id= {result.id}  >View Details</Link>  </li>
+                            <li className="results-li"> <img src= {result.src.portrait} alt="different Images" height = "400px" width="260px" /> <h5>Poster ID: {result.id} </h5> 
+                             </li>
                             </ul> </div>)
+                       
                     } )
                 }
                 </div>
