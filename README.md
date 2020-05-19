@@ -44,11 +44,11 @@ Add purchase functionality.
 Add authentication functionality.
 
 ## Wireframe:
-![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1_HomePage.png)
-![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/Search.png)
-![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_UploadPage.png)
+![Home Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/0_HomePage.png)
+![Search Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/1_SearchPage.png)
+![Upload Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/3_UploadPage.png)
 ![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/4_AboutPage.png)
-![About Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/5_CommentPage.png)
+![Comment Page](https://github.com/Abdu-w/MidMod3-Poster-app/blob/master/Wireframe/5_CommentPage.png)
 
 ## Link:
 
